@@ -1,2 +1,4 @@
 # Batch_Stuff
 Tous les exercices Batch quon a eu a date
+
+### NOTE : CECI N'EST RIEN D'EXCEPTIONNEL. LE BUT EST DE DONNER UN GUIDELINE A NOS COLLEGUES SUR LE BATCH SCRIPTING.
