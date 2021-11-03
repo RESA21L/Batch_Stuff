@@ -9,6 +9,7 @@ set argent=100
 echo Vous avez %argent%$
 echo --------------------
 set /p mise="Combien vous misez?: "
+if "%mise%" gtr "%argent%" goto error
 echo --------------------
 set /p choix="Pile ou Face?: "
 echo Pour flipper le coin appuie sur enter
@@ -37,3 +38,11 @@ goto jeu
 echo Vous avez pu une cenne!
 pause
 exit
+
+
+:error
+cls
+echo Vous n'avez pas assez d'argent
+pause
+cls
+goto jeu
